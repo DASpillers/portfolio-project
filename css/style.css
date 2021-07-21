@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Encode Sans';
+    color: #333;
+}
+
+.navbar {
+    padding-bottom: 1rem;
+}
+
+.navbar-brand img {
+    position: relative;
+    height: 6em;
+    z-index: ;
+}
+
+.navbar-brand {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.nav-item {
+    margin-left: 1rem;
+}
