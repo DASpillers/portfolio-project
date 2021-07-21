@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.html",
   "scripts": {
+    "lite": "lite-server",
+    "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -12,8 +14,8 @@
   },
   "author": "Daniel Anthony Spillers",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/DASpillers/portfolio-project/issues"
+  "devDependencies": {
+    "lite-server": "^2.6.1"
   },
   "homepage": "https://github.com/DASpillers/portfolio-project#readme",
   "dependencies": {
