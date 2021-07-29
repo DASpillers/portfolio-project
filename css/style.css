@@ -5,6 +5,8 @@
     color: #333;
 }
 
+
+ /* Navbar Styling */ 
 .navbar {
     padding-bottom: 1rem;
 }
@@ -22,4 +24,17 @@
 
 .nav-item {
     margin-left: 1rem;
+}
+
+.nav-link:hover, .dropdown-item:hover {
+    color: purple!important;
+}
+
+#topTen li {
+    padding-top: 1.3em;
+}
+
+#topTen ol {
+    background-color: red;
+    border: 1px solid;
 }
