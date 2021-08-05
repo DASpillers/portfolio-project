@@ -55,13 +55,48 @@
                 
                 <li class="nav-item">
                     <a class="nav-link" href="#connect">Connect</a>
-                </a>
+                    </li>
+                <li class="nav-item">
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#subscribeModal">
+                        Subscribe
+                    </button>
+                </li>
             </ul>
         </div>
     </nav>
 </div>
 
-<!--Carousel and Side menu-->
+<!--Subscribe Modal-->
+    <div class="modal" id="subscribeModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Subscribe to our Newletter!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="fName">First Name</label>
+                            <input type="text" id="fName" class="form-control">
+                            <label for="lName">Last Name</label>
+                            <input type="text" id="lName" class="form-control">
+                            <label for="emailAddress">Email address</label>
+                            <input type="email" class="form-control" id="emailAddress" placeholder="name@example.com">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+        </div>
+</div>
+
+<!--Carousel-->
 <div class="container">
     <div class="row">
         <div class="col">
@@ -78,7 +113,7 @@
                         <!--Below is the code to place text/buttons on the carousel image-->
                         <h1 class="display-2">Sunbathe Loops</h1>
                         <h3>Summertime loops are a breeze</h3>
-                        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#sunbatheModal">
+                        <button type="button" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#sunbatheModal">
                             Listen
                         </button>
                     </div>
@@ -88,8 +123,7 @@
                     <div class="carousel-caption">
                         <!--Below is the code to place text/buttons on the carousel image-->
                         <h1 class="display-2">Tutorials</h1>
-                        <h3>Level up your production in no time</h3>
-                        <button type="button" class="btn btn-primary btn-lg">Get Started</button>
+                        <h3>Learn tip and tricks to turn your production into a hit!</h3>
                     </div>
                 </div>
                 <div class="carousel-item">
@@ -98,7 +132,7 @@
                         <!--Below is the code to place text/buttons on the carousel image-->
                         <h1 class="display-2">We've got Bundles!</h1>
                         <h3>selects up to 5 packs for $99</h3>
-                        <button type="button" class="btn btn-primary btn-lg">Click Here</button>
+                        <button type="button" class="btn btn-secondary btn-lg">Click Here</button>
                     </div>
                 </div>
             </div>
@@ -250,8 +284,8 @@
     <div class="container container-fluid mx-auto">
         <div class="row">
             <div class="col">
-                <h1 class="display-4 text-center">Bop. Mix. Repeat</h1>
-                <p class="lead text-center">Drag & Drop loops and lessons designed to help you sell your beats.</p>
+                <h1 class="display-4 text-center">Vibe. Mix. Repeat</h1>
+                <p class="lead text-center"><em>Drag & Drop loops and lessons designed to help you sell your beats.</em></p>
             </div>
         </div>
     </div>
@@ -259,47 +293,47 @@
 
 <!--Genre Cards-->
 
-<div class="container container-fluid">
-    <h2 class="text-center">Header for Genre Cards</h2>
+<div class="container container-fluid padding alternate">
+    <h1 class="text-center">Sample Packs</h1>
     <hr>
     <div class="row">
-        <div class="col">
-            <div class="card mr-auto mx-sm-auto" style="width: 18rem;">
+        <div class="col padding">
+            <div class="card mr-auto mx-sm-auto border-top border-bottom" style="width: 18rem;">
                 <img class="card-img-top" src="./img/matt-botsford-OKLqGsCT8qs-unsplash.jpg" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">Soul'd in Gold 1</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
                         content.</p>
-                    <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#soulgoldModal">Listen now</a>
+                    <a class="btn" data-toggle="modal" data-target="#soulgoldModal">Listen</a>
                 </div>
             </div>
         </div>
-        <div class="col">
+        <div class="col padding">
             <div class="card mr-auto mx-sm-auto" style="width: 18rem;">
                 <img class="card-img-top" src="./img/sour-moha-WnA9xtswSeo-unsplash.jpg" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">Trap House 6</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
                         content.</p>
-                    <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#traphouseModal">Listen</a>
+                    <a class="btn" data-toggle="modal" data-target="#traphouseModal">Listen</a>
                 </div>
             </div>
         </div>
-        <div class="col">
+        <div class="col padding">
             <div class="card mr-auto mx-sm-auto" style="width: 18rem;">
                 <img class="card-img-top" src="./img/eric-nopanen-8e0EHPUx3Mo-unsplash.jpg" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">Boombox Analog 2</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
                         content.</p>
-                    <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#boomModal">Listen</a>
+                    <a class="btn" data-toggle="modal" data-target="#boomModal">Listen</a>
                 </div>
             </div>
         </div>
         <hr>
     </div>
     <div class="row">
-        <div class="col">
+        <div class="col padding">
             <div class="card mr-auto mx-sm-auto" style="width: 18rem;">
                 <img class="card-img-top" src="./img/radu-mihai-VvkSX2NwS4A-unsplash.jpg" alt="Card image cap">
                 <div class="card-body">
@@ -307,11 +341,11 @@
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                         card's
                         content.</p>
-                    <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#bigintexasModal">Listen</a>
+                    <a class="btn" data-toggle="modal" data-target="#bigintexasModal">Listen</a>
                 </div>
             </div>
         </div>
-        <div class="col">
+        <div class="col padding">
             <div class="card mr-auto mx-sm-auto" style="width: 18rem;">
                 <img class="card-img-top" src="./img/manos-gkikas-L0tsGE7634E-unsplash.jpg" alt="Card image cap">
                 <div class="card-body">
@@ -319,11 +353,11 @@
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                         card's
                         content.</p>
-                    <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#choppedModal">Listen</a>
+                    <a class="btn" data-toggle="modal" data-target="#choppedModal">Listen</a>
                 </div>
             </div>
         </div>
-        <div class="col">
+        <div class="col padding">
             <div class="card mr-auto mx-sm-auto" style="width: 18rem;">
                 <img class="card-img-top" src="./img/andreas-gucklhorn-mawU2PoJWfU-unsplash.jpg" alt="Card image cap">
                 <div class="card-body">
@@ -331,7 +365,7 @@
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                         card's
                         content.</p>
-                    <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#joyModal">Listen</a>
+                    <a class="btn" data-toggle="modal" data-target="#joyModal">Listen</a>
                 </div>
             </div>
         </div>
@@ -340,33 +374,33 @@
 
 <!--Tutorials/Three-Column Section  -->
 
-<div class="container container-fluid">
+<div class="container container-fluid padding">
     <div class="row" id="tutorials">
         <div class="col-12 text-center">
-        <h3>Header for Tutorials</h3>
+        <h3>Tutorials for Beginners</h3>
         <hr>
         </div>
-    <div class="row">
+    <div class="row padding">
         <div class="col col-xs-12 mr-auto text-center">
             <h4>Masterclass with Focus</h4>
             <iframe src="https://www.youtube.com/embed/0C3kVyxZ11A" title="YouTube video player"
-                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
             <p>Watch acclaimed hip hop producer Focus… (Dr. Dre, Kendrick Lamar, Eminem, Beyoncé) reveal his personal tips and tricks
             for hip hop mixing & production.</p>
         </div>
-        <div class="col col-xs-12 text-center">
+        <div class="col col-xs-12 text-center padding">
             <h4>Make $6,000/Month as a music producer</h4>
             <iframe src="https://www.youtube.com/embed/vqTv6b1vKwo" title="YouTube video player"
-                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
             <p>4 realistic ways to create passive income sources for creatives and music producers.</p>
 
         </div>
-        <div class="col col-xs-12 ml-auto text-center">
+        <div class="col col-xs-12 ml-auto text-cente padding">
             <h4>How to Make Your First Beat - Music Theory Pt. 1</h4>
             <iframe src="https://www.youtube.com/embed/g2jYvJJT_M4" title="YouTube video player"
-                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
             <p>I will guide you step by step through your first beat in FL Studio. This video covers chords and melody. Music theory
             basics and chord codes.</p>
@@ -377,12 +411,15 @@
 
 <!--About Us/ Two Column Section-->
 
-<div class="container container-fluid">
+<div class="container container-fluid padding alternate">
     <div class="row">
         <div class="col" id="aboutus">
             <h3>About: Daniel Spillers</h3>
             <hr class="my-4">
-            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa recusandae saepe, dolorem ducimus atque inventore, officia odio et beatae iure a eaque quidem fugit magnam!</P>>
+            <P>Daniel Spillers is a seasoned music producer with credits ranging from Juvenile to T-pain and many more. Now learning to become a software developer, Daniel has decided to create his first Bootstrap 4 website using a format that is familiar to him in Music.
+                This site was designed for the beginner to intermediate music user in mind, providing different styles of production to display his creative abilities on a properly responsive website. The inspiration behind this website was ProducerLoops.com. 
+                The musical elements on this website were created solely by Daniel Spillers. The tutorials on this site are provided by some of the best music teachers you would be able to find on the internet and represent information that would be useful to the end user in creating a new style or sound in their music by adding a multitude of tools to acheive such success.
+            </P>
         </div>
         <div class="col">
             <img src="img/IMG_4235.JPG" alt="Headshot">
@@ -391,7 +428,7 @@
 </div>
 
 <!--Connect Section/Footer/ 3 Columns-->
-<footer class="site-footer" id="footer">
+<footer class="site-footer padding" id="footer">
     <div class="container">
         <div class="row">
             <div class="col-4 col-sm-2 offset-1 text-light">
@@ -405,12 +442,12 @@
             </div>
             <div class="col-6 col-sm-5 text-center text-light" id="connect">
                 <h5>Social</h5>
-                <a class="btn btn-social-icon btn-light btn-lg btn-instagram" href="http://instagram.com/"><i
+                <a class="btn btn-social-icon btn-light btn-lg btn-instagram" href="https://www.instagram.com/rychbeats/" target="blank"><i
                         class="fa fa-instagram"></i></a>
-                <a class="btn btn-social-icon btn-light btn-lg btn-facebook" href="http://facebook.com/"><i
+                <a class="btn btn-social-icon btn-light btn-lg btn-facebook" href="https://www.facebook.com/GxDRYCH/" target="blank"><i
                         class="fa fa-facebook"></i></a>
-                <a class="btn btn-social-icon btn-light btn-lg btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
-                <a class="btn btn-social-icon btn-light btn-lg btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+                <a class="btn btn-social-icon btn-light btn-lg btn-twitter" href="http://twitter.com/gxd_rych" target="blank"><i class="fa fa-twitter"></i></a>
+                <a class="btn btn-social-icon btn-light btn-lg btn-google" href="https://www.youtube.com/channel/UCBg2IXawsF38wgUbTk2O5aQ" target="blank"><i class="fa fa-youtube"></i></a>
             </div>
             <div class="col-sm-4 text-center">
                 <a role="button" class="btn btn-light btn-link" href="tel:+13475972261"><i class="fa fa-phone"></i>
@@ -427,4 +464,4 @@
     <script src="/node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
-</html>00000
+</html>

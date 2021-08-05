@@ -60,16 +60,48 @@ body {
     background-color: #939196;
 }
 
+/* Card Body */
+.card {
+    padding: 0px;
+    border: 1px solid #939196;    
+}
+
+.card-body {
+    padding-bottom: 1em
+}
+
+/* #cardButtons {
+    color: white;
+    background-color: #5F0F40;
+} */
+
+.card .btn {
+    color: white!important;
+    background-color: #5F0F40;
+}
+
 /* Carousel */
 
 
 
 .carousel-caption h1 {
     position: relative;
-    transform: translateY(-50%);
+    transform: translateY(-180%);
     font-size: 400%;
     text-transform: uppercase;
     text-shadow: 1px 1px 15px #000;
+}
+
+.carousel-caption h3 {
+    position: relative;
+    transform: translateY(-100%);
+    font-size: 200%;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 15px #000;
+}
+
+.carousel-caption button {
+    transform: translateY(-50%);
 }
 
 /*Social Media Buttons*/
@@ -93,4 +125,22 @@ body {
 }
 
 footer {
-    background-color: #CB793A;
+    background-color: #939196;
+}
+
+
+iframe {
+    border: 0px;
+}
+
+.padding {
+    padding-bottom: 2rem; 
+    padding-top: 2rem;
+}
+
+.alternate {
+    background-color: antiquewhite;
+    width: 100%;
+    height: 100%;
+}
+
