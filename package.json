@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.html",
   "scripts": {
+    "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",
+    "imagemin": "imagemin img/* -o dist/img",
     "lite": "lite-server",
     "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,7 +17,10 @@
   "author": "Daniel Anthony Spillers",
   "license": "ISC",
   "devDependencies": {
-    "lite-server": "^2.6.1"
+    "copyfiles": "^2.2.0",
+    "imagemin-cli": "^5.1.0",
+    "lite-server": "^2.6.1",
+    "usemin-cli": "^0.6.0"
   },
   "homepage": "https://github.com/DASpillers/portfolio-project#readme",
   "dependencies": {

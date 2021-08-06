@@ -58,7 +58,7 @@
                     <a class="nav-link" href="#connect">Connect</a>
                     </li>
                 <li class="nav-item">
-                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#subscribeModal">
+                    <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#subscribeModal">
                         Subscribe
                     </button>
                 </li>
@@ -141,27 +141,6 @@
     </div>
 </div>
 
-<!--AUDIO MODAL-->
-
-<div class="modal" id="sunbatheModal" tabindex="-1" role="dialog">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title">Sunbathe in my Droptop</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <audio controls style="width:100%">
-                    <source src="/audio/SunbatheInMyDroptop.mp3" type="audio/mpeg">
-                    Your browser does not support the audio element.
-                </audio>
-            </div>
-        </div>
-    </div>
-</div>
-
 <!--JUMBOTRON-->
 
 <div class="jumbotron-fluid">
@@ -177,13 +156,13 @@
 
 <!--Genre Cards-->
 
-<div class="container container-fluid padding alternate">
+<div class="container container-fluid padding alternate" id="genreCards">
     <h1 class="text-center">Sample Packs</h1>
     <hr>
     <div class="row">
         <div class="col padding">
-            <div class="card mr-auto mx-sm-auto border-top border-bottom" style="width: 18rem;">
-                <img class="card-img-top" src="./img/pexels-public-domain-pictures-68147.jpg" alt="Card image cap">
+            <div class="card mr-auto mx-sm-auto" style="width: 18rem;">
+                <img class="card-img-top" src="./img/pexels-public-domain-pictures-68147.jpg" alt="Soul'd in Gold 1">
                 <div class="card-body">
                     <h5 class="card-title">Soul'd in Gold 1</h5>
                     <p class="card-text">Think Terry Crews in White Chicks. Now, Dance.</p>
@@ -196,7 +175,7 @@
         </div>
         <div class="col padding">
             <div class="card mr-auto mx-sm-auto" style="width: 18rem;">
-                <img class="card-img-top" src="./img/sour-moha-WnA9xtswSeo-unsplash.jpg" alt="Card image cap">
+                <img class="card-img-top" src="./img/sour-moha-WnA9xtswSeo-unsplash.jpg" alt="Trap House 6">
                 <div class="card-body">
                     <h5 class="card-title">Trap House 6</h5>
                     <p class="card-text">Trap music that was made for the streets.</p>
@@ -209,7 +188,7 @@
         </div>
         <div class="col padding">
             <div class="card mr-auto mx-sm-auto" style="width: 18rem;">
-                <img class="card-img-top" src="./img/eric-nopanen-8e0EHPUx3Mo-unsplash.jpg" alt="Card image cap">
+                <img class="card-img-top" src="./img/eric-nopanen-8e0EHPUx3Mo-unsplash.jpg" alt="Boombox Analog 2">
                 <div class="card-body">
                     <h5 class="card-title">Boombox Analog 2</h5>
                     <p class="card-text">Loops that just might kick a freestyle.</p>
@@ -224,7 +203,7 @@
     <div class="row">
         <div class="col padding">
             <div class="card mr-auto mx-sm-auto" style="width: 18rem;">
-                <img class="card-img-top" src="./img/radu-mihai-VvkSX2NwS4A-unsplash.jpg" alt="Card image cap">
+                <img class="card-img-top" src="./img/radu-mihai-VvkSX2NwS4A-unsplash.jpg" alt="Big in Texas">
                 <div class="card-body">
                     <h5 class="card-title">Big in Texas</h5>
                     <p class="card-text">Everything is big in Texas. Especially these loops.</p>
@@ -237,7 +216,7 @@
         </div>
         <div class="col padding">
             <div class="card mr-auto mx-sm-auto" style="width: 18rem;">
-                <img class="card-img-top" src="./img/manos-gkikas-L0tsGE7634E-unsplash.jpg" alt="Card image cap">
+                <img class="card-img-top" src="./img/manos-gkikas-L0tsGE7634E-unsplash.jpg" alt="Chopped -not- Slopped">
                 <div class="card-body">
                     <h5 class="card-title">Chopped -not- Slopped</h5>
                     <p class="card-text">Lean. check. Loops. Check. Slowed up for your soul.</p>
@@ -250,7 +229,7 @@
         </div>
         <div class="col padding">
             <div class="card mr-auto mx-sm-auto" style="width: 18rem;">
-                <img class="card-img-top" src="./img/pexels-pixabay-355321.jpg" alt="Card image cap">
+                <img class="card-img-top" src="./img/pexels-pixabay-355321.jpg" alt="Epic and Lush">
                 <div class="card-body">
                     <h5 class="card-title">Epic and Lush</h5>
                     <p class="card-text">Make music that sounds like the Sun.</p>
@@ -274,7 +253,6 @@
         </div>
     <div class="row padding">
         <div class="col col-xs-12 mr-auto text-center padding">
-            <h4>Masterclass with Focus</h4>
             <iframe src="https://www.youtube.com/embed/0C3kVyxZ11A" title="YouTube video player"
                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
@@ -282,7 +260,6 @@
             for hip hop mixing & production.</p>
         </div>
         <div class="col col-xs-12 text-center padding">
-            <h4>Make $6,000/Month</h4>
             <iframe src="https://www.youtube.com/embed/vqTv6b1vKwo" title="YouTube video player"
                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
@@ -290,7 +267,6 @@
 
         </div>
         <div class="col col-xs-12 ml-auto text-center padding">
-            <h4>How to Make Your First Beat</h4>
             <iframe src="https://www.youtube.com/embed/g2jYvJJT_M4" title="YouTube video player"
                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
@@ -327,7 +303,7 @@
                 <h5>Links</h5>
                 <ul class="list-unstyled">
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="#">Genres</a></li>
+                    <li><a href="#genreCards">Genres</a></li>
                     <li><a href="#tutorials">Tutorials</a></li>
                     <li><a href="contactus.html">Contact</a></li>
                 </ul>
