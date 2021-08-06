@@ -1,12 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
 
 * {
     font-family: 'Encode Sans';
-    color: #939196;
+    color: #F2D272;
 }
 
 body {
-    background-color: #5F0F40;
+    background-color: #7A98BF;
+}
+
+p {
+    font-family: 'Roboto'!important;
+    font-weight: 200!important;
 }
 
  /* Navbar Styling */ 
@@ -16,7 +23,7 @@ body {
 
 .navbar-brand img {
     position: relative;
-    height: 6em;
+    height: 4em;
 }
 
 .navbar-brand {
@@ -30,40 +37,28 @@ body {
 }
 
 .nav-link:hover, .dropdown-item:hover {
-    color: purple!important;
-}
-
-/* Top Ten List */
-
-#topTen li {
-    padding-top: 1.3em;
-}
-
-#topTen ol {
-    background-color: red;
-    border: 1px solid;
-    height: 100%;
-    max-width: 100%;
+    color: #032859!important;
 }
 
 
 /*Jumbotron*/
 
 .jumbotron .container {
-    
     margin: 0;
     padding: 0;
-    background-color: #5F0F40;
 }
 
+
+
 .jumbotron {
-    background-color: #939196;
+    background-color:#7A98BF;
 }
 
 /* Card Body */
 .card {
     padding: 0px;
-    border: 1px solid #939196;    
+    border: 1px solid #939196;
+    background-color: #939196;
 }
 
 .card-body {
@@ -76,7 +71,7 @@ body {
 } */
 
 .card .btn {
-    color: white!important;
+    color: #939196!important;
     background-color: #5F0F40;
 }
 
@@ -125,7 +120,7 @@ body {
 }
 
 footer {
-    background-color: #939196;
+    background-color: #7A98BF;
 }
 
 
@@ -139,8 +134,16 @@ iframe {
 }
 
 .alternate {
-    background-color: antiquewhite;
+    background-color: #032859;
     width: 100%;
     height: 100%;
 }
 
+hr {
+    background-color: white!important;
+    width: 60%;
+}
+
+#aboutus p, #aboutus h3 {
+    color: white;
+}
