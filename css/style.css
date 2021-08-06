@@ -158,13 +158,13 @@ hr {
 
 
 #aboutus p {
-    color: white;
+    color: #F2D272;
     font-size: 1.3em;
     font-weight: 100;
 }
 
  #aboutus h3 {
-    color: white;
+    color: #F2D272;
 }
 
 #headshot {
@@ -180,9 +180,6 @@ hr {
 iframe {
     padding-top: 2rem;
     padding-bottom: 2rem;
-}
-subscribeModal h5 {
-    color: white!important;
 }
 
 .btn-warning {
@@ -204,6 +201,6 @@ subscribeModal h5 {
 }
 
 .modal-footer .btn-primary {
-    background-color: black;
+    background-color: #032859;
     border: 0;
 }
