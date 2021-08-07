@@ -144,6 +144,7 @@ iframe {
     background-color: #032859;
     width: 100%;
     height: 100%;
+    border-radius: 5px;
 }
 
 hr {
@@ -203,4 +204,11 @@ iframe {
 .modal-footer .btn-primary {
     background-color: #032859;
     border: 0;
+}
+
+@media screen and (max-width:414px) {
+    #headshot {
+        /* height: auto; */
+        width: 5px;
+    }
 }
